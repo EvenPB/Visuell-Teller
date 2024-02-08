@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visuell Teller</title>
+    <style>
+        #Container {
+            background-color: whitesmoke;
+        }
+         #countLabel {
+            display: block;
+            text-align: center;
+            font-size: 500%;
+            font-weight: bold;
+        }
+
+        #DecreaseButton {
+            display: flex;
+            text-align: center;
+            font-size: 300%;
+            background-color: beige;
+            margin-bottom: 15px;
+        }
+
+        #ResetButton {
+            display: block;
+            text-align: center;
+            font-size: 300%;
+            background-color: lavender;
+            margin-bottom: 15px
+        }
+
+        #IncreaseButton {
+            display: block;
+            text-align: center;
+            font-size: 300%;
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Container">
+        <label id="countLabel">0</label><br>
+        <button id="DecreaseButton">-1</button>
+        <button id="ResetButton">Reset</button>
+        <button id="IncreaseButton">+1</button>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
